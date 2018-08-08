@@ -1,0 +1,9 @@
+
+yarn-error.log*
+node_modules/
+.vs
+.vscode
+.idea
+public/dist
+.env.development
+.env.test
