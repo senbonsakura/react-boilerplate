@@ -6,9 +6,33 @@
   "env": {
     "node": true,
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
-  "rules": { "react/jsx-filename-extension": [0] }
-
-
+  "rules": {
+    "react/jsx-filename-extension": [
+      0
+    ],
+    "react/prop-types": [
+      0
+    ],
+    "import/no-named-as-default": [
+      0
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-shadow": "off",
+    "comma-dangle": [2, "always-multiline"],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ]
+  }
 }
