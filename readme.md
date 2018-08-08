@@ -1,3 +1,2 @@
-# React - Expenses App
+# React - Boilerplate App
 
-A react-redux app
